@@ -373,7 +373,7 @@ section h3, section h4 {
   font-size: var(--fs-20);
 }
 
-#team p {
+#team p:not(#team h2 ~ p) {
   flex-grow: 1;
   display: flex;
   padding: 0 30px;
